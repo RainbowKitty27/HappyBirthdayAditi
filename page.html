@@ -10,14 +10,13 @@
         <h1 style="color: rgb(41, 33, 196);text-align: center;">Nanami has a surprise for you</h1>
         <p style="color: rgb(2, 1, 19); text-align: center;"> Click the present to reveal the surprise</p>
         
-    <button onclick="revealSurprise()" style="display: block; margin: 0 auto; background-color: rgb(234, 216, 16);"><img src="/Users/abhisrichowdhury/Desktop/code/Happy Birtday/edited-photo.png" alt="Gift" style="width: 200px; height: 200px;"></button>
+    <button onclick="revealSurprise()" style="display: block; margin: 0 auto; background-color: rgb(234, 216, 16);"><img src="edited-photo.png" alt="Gift" style="width: 200px; height: 200px;"></button>
     <script>
         function revealSurprise() {
             Swal.fire({
         title: 'Happy Birthday!',
         text: 'Here is your custom image alert.',
         imageUrl: 'https://i.pinimg.com/1200x/2d/08/e8/2d08e8d4550c052339fce2b2724ca608.jpg',
-        
         imageAlt: 'Custom image',
       })
         }
